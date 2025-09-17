@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+}
+
+.crud-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.crud-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.crud-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #646cff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.crud-form button:hover {
+  background: #535bf2;
+}
+
+.crud-list {
+  list-style: none;
+  padding: 0;
+}
+.crud-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+.crud-list-item button {
+  margin-left: 0.5rem;
+  background: #eee;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+.crud-list-item button:hover {
+  background: #ffb3b3;
+}
